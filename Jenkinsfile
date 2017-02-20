@@ -57,6 +57,8 @@ source poky/oe-init-build-env
 # Prevent error "Do not use Bitbake as root"
 [ $(whoami) = "root" ] && touch conf/sanity.conf
 
+export MACHINE=qemux86-64
+
 # Perform the actual build
 bitbake nostromo-image
 # TODO: bitbake test-image
