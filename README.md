@@ -12,17 +12,21 @@
 
 ### Usage
 
-From Jenkins dashboard: New Item
+From the Jenkins dashboard, click **New Item**
 
 * Enter an item name: `my-genivi-pipelines`
-* Type: Multibranch Pipeline
+* Type: **Multibranch Pipeline**
 
-then click **OK** and configure the job
+then click **OK**. Inside the projecct configuration page, add the followign information
 
 * Branch Sources > Add source > Git
-  - Project Repository: https://github.com/gmacario/my-genivi-pipelines
+  - Project Repository: `https://github.com/gmacario/my-genivi-pipelines`
 
-then click **Save**
+then click **Save**.
+
+Select job "my-genivi-pipelines", then click **Build Now**.
+
+Click on **Blue Ocean** to display the Blue Ocean Dashboard.
 
 ### License and Copyright
 
