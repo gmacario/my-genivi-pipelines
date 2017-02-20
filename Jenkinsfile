@@ -10,9 +10,9 @@ pipeline {
       steps {
         echo 'Starting Build'
         sh 'echo TODO: mvn clean install -DskipTests'
-        node(label: 'windows') {
-          sh 'call doATest.bat'
-        }
+        // node(label: 'windows') {
+        //   sh 'call doATest.bat'
+        // }
         
       }
     }
