@@ -17,7 +17,7 @@ From the Jenkins dashboard, click **New Item**
 * Enter an item name: `my-genivi-pipelines`
 * Type: **Multibranch Pipeline**
 
-then click **OK**. Inside the projecct configuration page, add the followign information
+then click **OK**. Inside the project configuration page, add the following information:
 
 * Branch Sources > Add source > Git
   - Project Repository: `https://github.com/gmacario/my-genivi-pipelines`
@@ -32,4 +32,4 @@ Click on **Blue Ocean** to display the Blue Ocean Dashboard.
 
 This project is licensed under the MIT License - for details please see the [LICENSE](LICENSE) file.
 
-Copyright 2017, [Gianpaolo Macario](https://gmacario.github.io/)
+Copyright (C) 2017, [Gianpaolo Macario](https://gmacario.github.io/)
