@@ -33,6 +33,12 @@ source init.sh raspberrypi3
 # Prevent error "Do not use Bitbake as root"
 [ $(whoami) = "root" ] && touch conf/sanity.conf
 
+# Workaround for "Please use a locale setting which supports utf-8"
+# See https://github.com/gmacario/my-agl-pipelines/issues/9
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+export LANGUAGE=en_US.UTF-8
+ 
 # Perform the actual build
 bitbake genivi-dev-platform
 # TODO: bitbake genivi-dev-platform-sdk
