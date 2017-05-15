@@ -43,6 +43,12 @@ export LANGUAGE=en_US.UTF-8
 bitbake genivi-dev-platform
 # TODO: bitbake genivi-dev-platform-sdk
 
+# DEBUG
+ls -la tmp/
+ls -la tmp/deploy/
+ls -la tmp/deploy/images
+ls -la tmp/deploy/images/raspberrypi3/
+
 # EOF'''
       }
     }
