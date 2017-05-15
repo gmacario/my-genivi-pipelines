@@ -68,14 +68,13 @@ ls -la tmp/deploy/images/raspberrypi3/
     }
     stage('Deploy') {
       steps {
-        echo 'deploying'
+        echo 'INFO: Deploying'
         sh '''#!/bin/bash -xe
 
 # DEBUG
 pwd
 ls -la
-
-# ls -la gdp-build-src/
+ls -la gdp-src-build/
 # ls -la build/
 # ls -la build/tmp/
 # ls -la build/tmp/deploy/
