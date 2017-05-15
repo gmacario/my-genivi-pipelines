@@ -69,6 +69,20 @@ ls -la tmp/deploy/images/raspberrypi3/
     stage('Deploy') {
       steps {
         echo 'deploying'
+        sh '''#!/bin/bash -xe
+
+# DEBUG
+pwd
+ls -la
+
+# ls -la gdp-build-src/
+# ls -la build/
+# ls -la build/tmp/
+# ls -la build/tmp/deploy/
+# ls -la build/tmp/deploy/images/
+# ls -la build/tmp/deploy/images/udooneo/
+
+# EOF'''
       }
     }
   }
