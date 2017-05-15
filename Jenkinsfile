@@ -44,10 +44,10 @@ bitbake genivi-dev-platform
 # TODO: bitbake genivi-dev-platform-sdk
 
 # DEBUG
-ls -la tmp/
-ls -la tmp/deploy/
-ls -la tmp/deploy/images
-ls -la tmp/deploy/images/raspberrypi3/
+# ls -la tmp/
+# ls -la tmp/deploy/
+# ls -la tmp/deploy/images
+# ls -la tmp/deploy/images/raspberrypi3/
 
 # EOF'''
       }
@@ -75,13 +75,13 @@ ls -la tmp/deploy/images/raspberrypi3/
 pwd
 ls -la
 ls -la gdp-src-build/
-# ls -la build/
-# ls -la build/tmp/
-# ls -la build/tmp/deploy/
-# ls -la build/tmp/deploy/images/
-# ls -la build/tmp/deploy/images/udooneo/
+ls -la gdp-src-build/tmp/
+ls -la gdp-src-build/tmp/deploy/
+ls -la gdp-src-build/tmp/deploy/images/
+ls -la gdp-src-build/tmp/deploy/images/udooneo/
 
 # EOF'''
+        archive 'gdp-src-build/tmp/deploy/images/*/*.rpi-sdimg'
       }
     }
   }
