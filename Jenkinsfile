@@ -78,7 +78,7 @@ ls -la gdp-src-build/
 ls -la gdp-src-build/tmp/
 ls -la gdp-src-build/tmp/deploy/
 ls -la gdp-src-build/tmp/deploy/images/
-ls -la gdp-src-build/tmp/deploy/images/udooneo/
+ls -la gdp-src-build/tmp/deploy/images/raspberrypi3/
 
 # EOF'''
         archive 'gdp-src-build/tmp/deploy/images/*/*.rpi-sdimg'
