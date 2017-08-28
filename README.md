@@ -17,7 +17,7 @@ From the Jenkins dashboard, click **New Item**
 * Enter an item name: `my-genivi-pipelines`
 * Type: **Multibranch Pipeline**
 
-then click **OK**. Inside the projecct configuration page, add the followign information
+then click **OK**. Inside the projecct configuration page, add the following information
 
 * Branch Sources > Add source > Git
   - Project Repository: `https://github.com/gmacario/my-genivi-pipelines`
