@@ -32,4 +32,4 @@ Click on **Blue Ocean** to display the Blue Ocean Dashboard.
 
 This project is licensed under the MIT License - for details please see the [LICENSE](LICENSE) file.
 
-Copyright (C) 2017, [Gianpaolo Macario](https://gmacario.github.io/)
+Copyright (C) 2017-2018, [Gianpaolo Macario](https://gmacario.github.io/)
