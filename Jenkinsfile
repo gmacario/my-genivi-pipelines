@@ -81,8 +81,8 @@ ls -la gdp-src-build/tmp/deploy/images/
 ls -la gdp-src-build/tmp/deploy/images/raspberrypi3/
 
 # EOF'''
-        archive 'gdp-src-build/tmp/deploy/images/*/*.rootfs.manifest'
-        archive 'gdp-src-build/tmp/deploy/images/*/*.rootfs.rpi-sdimg'
+        archiveArtifacts 'gdp-src-build/tmp/deploy/images/*/*.rootfs.manifest'
+        archiveArtifacts 'gdp-src-build/tmp/deploy/images/*/*.rootfs.rpi-sdimg'
       }
     }
   }
