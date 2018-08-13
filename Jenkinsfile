@@ -3,7 +3,7 @@ pipeline {
     docker {
       image 'gmacario/build-yocto'
     }
-    
+
   }
   stages {
     stage('Checkout') {
@@ -50,20 +50,6 @@ bitbake genivi-dev-platform
 # ls -la tmp/deploy/images/raspberrypi3/
 
 # EOF'''
-      }
-    }
-    stage('Test') {
-      steps {
-        parallel(
-          "Chrome": {
-            echo 'testing in chrome'
-            
-          },
-          "Firefox": {
-            echo 'testing in firefox'
-            
-          }
-        )
       }
     }
     stage('Deploy') {
